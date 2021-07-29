@@ -1,0 +1,27 @@
+{
+  "name": "horny-jail",
+  "version": "1.0.0",
+  "description": "Discord bot to avoid and punish horny people",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devstart": "nodemon index",
+    "vision": "nodemon vision"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElArmandoxd/horny-jail.git"
+  },
+  "author": "Inky Captain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElArmandoxd/horny-jail/issues"
+  },
+  "homepage": "https://github.com/ElArmandoxd/horny-jail#readme",
+  "dependencies": {
+    "@google-cloud/vision": "^2.3.7",
+    "child_process": "^1.0.2",
+    "discord.js": "^12.5.3",
+    "nodemon": "^2.0.12"
+  }
+}
